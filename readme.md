@@ -1,4 +1,4 @@
-# ESP32 no_std Example
+# ESP32 no_std Examples
 
 ## References
 

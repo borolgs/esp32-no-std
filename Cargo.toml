@@ -1,5 +1,5 @@
 [package]
-name = "learn-esp32nostd"
+name = "esp32-no-std"
 version = "0.1.0"
 authors = ["Oleg Borodatov <borolgs@gmail.com>"]
 edition = "2021"
