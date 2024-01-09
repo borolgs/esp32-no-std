@@ -7,5 +7,16 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 hal = { package = "esp32-hal", version = "0.16.0" }
-esp-backtrace = { version = "0.9.0", features = ["esp32", "panic-handler", "exception-handler", "print-uart"] }
+esp-backtrace = { version = "0.9.0", features = [
+  "esp32",
+  "panic-handler",
+  "exception-handler",
+  "print-uart",
+] }
 esp-println = { version = "0.7.0", features = ["esp32"] }
+critical-section = "1.1.2"
+
+ssd1306 = "0.8.4"
+embedded-graphics = "0.8.1"
+
+itoa = "1.0"
